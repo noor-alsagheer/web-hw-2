@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>action</title>
+    
+    <link rel="stylesheet" href="./style.css">
+    <style>
+
+
+.container{
+ 
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  
+  }
+  
+.container div{
+  
+ 
+  
+}
+body{background-color: grey;}
+
+.box-a{
+
+  justify-content: flex-end;
+  display: flex;
+justify-content: space-evenly;
+padding-bottom: 20px;
+background-color: gray;
+}
+.imag{
+  width: 250px;
+  border: 7px solid wheat;
+}
+.box-a p{
+  display: flex;
+ align-self: center;
+ font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ font-style: italic;
+
+}
+  
+.box-b{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+justify-content: space-between;
+background-color:lightgray;
+padding-bottom: 10px;
+}
+.pp{
+  display: flex;
+ justify-content: center;
+ font-style: italic;
+ font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.you{
+
+  display: flex;
+text-align: center;
+ font-style: italic;
+margin-top: 55px;
+ font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ text-shadow: 10px gray;
+
+
+
+}
+
+ .you:hover{
+  
+
+color: maroon;
+ transition: all .2s ease-in-out; 
+ transform: scale(1.1); 
+}
+
+.box-c{
+  flex: 1;
+  display: flex;
+align-items: center;
+  padding-bottom: 75px;
+  flex-direction: column;
+  text-align: center;
+  height: 600px;
+  background-color: grey;
+}
+
+
+
+.rotate-scale-up {
+	-webkit-animation: rotate-scale-up 5s linear infinite both;
+          animation: rotate-scale-up 5s linear infinite both;}
+          
+          
+          @-webkit-keyframes rotate-scale-up {
+  0% {
+    -webkit-transform: scale(1) rotateZ(0);
+            transform: scale(1) rotateZ(0);
+  }
+  50% {
+    -webkit-transform: scale(2) rotateZ(180deg);
+            transform: scale(2) rotateZ(180deg);
+  }
+  100% {
+    -webkit-transform: scale(1) rotateZ(360deg);
+            transform: scale(1) rotateZ(360deg);
+  }
+}
+@keyframes rotate-scale-up {
+  0% {
+    -webkit-transform: scale(1) rotateZ(0);
+            transform: scale(1) rotateZ(0);
+  }
+  50% {
+    -webkit-transform: scale(2) rotateZ(180deg);
+            transform: scale(2) rotateZ(180deg);
+  }
+  100% {
+    -webkit-transform: scale(1) rotateZ(360deg);
+            transform: scale(1) rotateZ(360deg);
+  }
+}
+
+          
+
+    </style>
+</head>
+<body>
+  <div>
+    <div class="navbar">
+        <div>  <img class="gogo" src="../img/img2/logo.png" width="70px"></div>
+          <input style="margin-top:12px;margin-left: 15px;
+      " type="text" name="search">
+       <a href="./wel.html">welcomeing</a>
+        <a href="./p1.html">home</a>
+        <a href="./p3.html">us</a>
+        <div class="dropdown">
+          <button class="dropbtn">varieties
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="./drama.html">drama</a>
+            <a href="./action.html">action</a>
+          </div>
+        </div> 
+      </div>
+    </div>
+
+      <button>sign in</button>
+
+      <div class="container" >
+
+<div class="box-a">
+  <p>action movies</p> 
+<img class="imag" src="../img/img2/ho.png">
+<img class="imag" src="../img/img2/l.png">
+<img class="imag"  src="../img/img2/kd.png">
+<img class="imag" src="../img/img2/ac.png">
+</div>
+
+<div class="box-b">
+
+<p class="pp">best action actors</p>
+<div style="display: flex ;justify-content: flex-start; margin-bottom: 10px;" ><img src="../img/img2/tf.png" width="200px" >
+  <p class="you">Arnold Schwarzenegger 
+    With an almost unpronounceable surname and a thick Austrian accent, who would have ever believed that a brash, quick talking bodybuilder from a small European village would become one of Hollywood's biggest stars, marry into the prestigious Kennedy family, amass a fortune via shrewd investments and... </p>
+</div>
+ 
+<div style="display: flex ;justify-content: flex-end; margin-bottom: 10px;"><img  src="../img/img2/tn.png" width="200px">
+  <p class="you">Sylvester Stallone 
+    This athletically built, dark-haired American actor/screenwriter/director may never be mentioned by old-school film critics in the same breath as, say, Richard Burton or Alec Guinness; however, movie fans worldwide have been flocking to see Stallone's films for over 30 years, making "Sly" one of ... 
+    </p>
+</div>
+ 
+<div  style="display: flex ;justify-content: flex-start;margin-bottom: 80px;"><img  src="../img/img2/tv.png" width="200px" >
+  <p class="you"> Bruce Willis 
+    Actor | Die Hard 
+    Actor and musician Bruce Willis is well known for playing wisecracking or hard-edged characters, often in spectacular action films. Collectively, he has appeared in films that have grossed in excess of $2.5 billion USD, placing him in the top ten stars in terms of box office receipts.
+    
+    Walter Bruce ... 
+    </p>
+</div>
+
+</div>
+
+<div class="box-c">
+<h3 class="rotate-scale-up" style="padding: 80px;">movie scince</h3>
+<video controls src="../img/img2/vid.mp4" width="700px" style="margin-top: 36px;" ></video>
+</div>
+
+
+
+      </div>
+      <footer>
+        <a href="https://www.instagram.com/ns_al7/"><img class="size " src="../img/img2/insta.png" alt="insta" ></a>
+         <a href="https://twitter.com/noor__sami"><img class="size " src="../img/img2/twi.png" alt="twitter"></a>
+         <a href="https://github.com/noor-alsagheer"><img class="size " src="../img/img2//git.png" alt="github"></a>
+       </footer>
+       
+</body></html>
